@@ -19,7 +19,7 @@ body {
 
 .row {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    padding: 96px 0;
+    padding: 80px 0;
 }
 
 a {
@@ -113,6 +113,12 @@ NAVIGATION
 nav {
     display: flex;
     padding-top: 32px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__logo {
@@ -416,7 +422,7 @@ header {
 }
 
 .header__img--wrapper {
-  width: calc(100% - 40%);
+  width: 40%;
 }
 
 .header__img {
@@ -455,6 +461,7 @@ FEATURES
 }
 
 .feature {
+    display: flex;
     width: calc(100% / 3);
 }
 
@@ -502,7 +509,7 @@ FEATURES
 
 .row__narrow {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -515,6 +522,9 @@ QUALITY WORK
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #quality .section__title,
@@ -572,6 +582,9 @@ STEPS
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .steps__img--wrapper {
@@ -743,6 +756,9 @@ PRICING
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #pricing .section__para {
